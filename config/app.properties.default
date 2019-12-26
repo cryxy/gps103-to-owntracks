@@ -1,0 +1,13 @@
+de.cryxy.owntracks.gps103.socket.port=22022
+
+# 1m
+de.cryxy.owntracks.gps103.trackUponTimeInterval=10s
+
+de.cryxy.owntracks.gps103.mqtt.server=ssl://server.de
+de.cryxy.owntracks.gps103.mqtt.user=
+de.cryxy.owntracks.gps103.mqtt.password=
+de.cryxy.owntracks.gps103.mqtt.mainTopic=owntracks
+
+de.cryxy.owntracks.gps103.imei.IMEI.user=
+de.cryxy.owntracks.gps103.imei.IMEI.device=
+de.cryxy.owntracks.gps103.imei.IMEI.tid=
