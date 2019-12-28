@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/FabianGirgert/gps103-to-owntracks/_apis/build/status/cryxy.gps103-to-owntracks?branchName=master)](https://dev.azure.com/FabianGirgert/gps103-to-owntracks/_build/latest?definitionId=5&branchName=master)
+
 # GPS103 Tracker to Owntracks
 Java-based socket server which listens for GPS103 Protocol messages (e.g. INCUTEX TK104). The Location messages are forwarded using MQTT and the Owntracks protocol.   
 
