@@ -23,7 +23,7 @@ steps:
 - task: OneLuckiDev.json2variable.vsts-release-web-test.oneLuckiDevJson2Variable@1 
   displayName: 'JSON to Variable'
   inputs: 
-    jsonFile: '$(Build.Repository.LocalPath)/gps103-to-owntracks/target/classes/version.json' 
+    jsonFile: '$(Build.Repository.LocalPath)/target/classes/version.json' 
     shouldPrefixVariables: true 
     variablePrefix: json
 - task: Docker@2
@@ -38,4 +38,4 @@ steps:
     dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
     repository: cryxy/gps103-to-owntracks
     tags: |
-      '$(json.version)'
+      $(json.version)
