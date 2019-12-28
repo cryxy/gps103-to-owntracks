@@ -1,4 +1,4 @@
-FROM adoptopenjdk:11-jre-hotspot
+FROM openjdk:11.0-slim
 ADD /target/gps103-to-owntracks-app.jar /start/gps103-to-owntracks-app.jar
 ADD /target/libs /start/libs
 EXPOSE 22022
