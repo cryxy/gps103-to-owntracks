@@ -36,6 +36,6 @@ steps:
   inputs:
     command: buildAndPush
     dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
-    repository: cryxy/gps103-to-owntracks
+    repository: 'cryxy/gps103-to-owntracks'
     tags: |
       '$(json.version)'
