@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.cryxy.owntracks.gps103</groupId>
 	<artifactId>gps103-to-owntracks-app</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 
 	<properties>
 		<version.wildfly.swarm>2018.3.3</version.wildfly.swarm>
@@ -169,7 +169,7 @@
 		<connection>scm:git:git@github.com:cryxy/gps103-to-owntracks.git</connection>
 		<url>scm:git:git@github.com:cryxy/gps103-to-owntracks.git</url>
 		<developerConnection>scm:git:git@github.com:cryxy/gps103-to-owntracks.git</developerConnection>
-	  <tag>gps103-to-owntracks-app-0.0.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 
