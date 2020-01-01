@@ -7,14 +7,14 @@ trigger:
 - master
 - release/*
 
-schedules:
-- cron: "0 3 * * *"
-  displayName: "Daily nightly build"
-  branches:
-    include:
-    - master
-    - release/*
-  always: true
+resources:         
+  containers:
+  - container: adaptopenjdk-jre-image
+    connection: 'cryxy@docker@hub'
+    image: adoptopenjdk 
+    trigger:
+      tags:
+      - 11-jre-hotspot
 
 pool:
   vmImage: 'ubuntu-latest'
