@@ -1,4 +1,4 @@
-FROM adoptopenjdk:11-jdk-hotspot
+FROM adoptopenjdk:11-jre-hotspot
 # copy the app
 ADD /target/gps103-to-owntracks-app.jar /start/gps103-to-owntracks-app.jar
 ADD /target/libs /start/libs
